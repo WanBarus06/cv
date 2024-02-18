@@ -549,8 +549,6 @@ video {
   color: rgb(252 165 165 / var(--tw-text-opacity));
 }
 
-/* Adjustments for wider main content */
-/* Apply CSS reset */
 * {
   margin: 0;
   padding: 0;
@@ -562,31 +560,23 @@ body {
 }
 
 .container {
-  /* Add your container styles */
-  /* You may need to adjust the width or padding based on your design */
-  width: 250px; /* Adjust the width of the sidebar */
+  width: 250px; 
   padding: 20px;
   background-color: #f0f0f0;
 }
 
 .main-content {
-  /* Add your main content styles */
-  /* Adjust margin, padding, and width as needed */
-  margin-left: 0px; /* Same width as the sidebar */
+  margin-left: 0px; 
   padding: 20px;
-  width: calc(100% - 250px); /* Subtract sidebar width from total width */
+  width: calc(100% - 250px); 
 }
 
-
-/* Media query for responsiveness */
 @media (max-width: 768px) {
   .main-content {
-      width: 100%; /* Occupy full width on smaller screens */
-      margin-left: 0; /* No margin on smaller screens */
+      width: 100%; 
+      margin-left: 0; 
   }
 }
-
-/* Your existing CSS */
 
 .section-line-1 {
   border: 0;
@@ -602,44 +592,43 @@ background-color: red;
 }
 
 h1 {
-  font-size: 4rem; /* Adjust as needed */
+  font-size: 4rem;
 }
 
 h2 {
-  font-size: 2rem; /* Adjust as needed */
+  font-size: 2rem; 
 }
 
 h3 {
-  font-size: 1.75rem; /* Adjust as needed */
+  font-size: 1.75rem; 
 }
 
 p {
-  font-size: 1.5rem; /* Adjust as needed */
+  font-size: 1.5rem; 
 }
 
 a {
-  font-size: 1.15rem; /* Adjust as needed */
+  font-size: 1.15rem; 
 }
 
-/* Update font size for specific elements */
 .text-lg {
-  font-size: 1.25rem; /* Adjust as needed */
+  font-size: 1.25rem; 
 }
 
 .text-xl {
-  font-size: 1.5rem; /* Adjust as needed */
+  font-size: 1.5rem;
 }
 
 .text-2xl {
-  font-size: 1.875rem; /* Adjust as needed */
+  font-size: 1.875rem; 
 }
 
 .text-3xl {
-  font-size: 2.25rem; /* Adjust as needed */
+  font-size: 2.25rem; 
 }
 
 .text-4xl {
-  font-size: 3rem; /* Adjust as needed */
+  font-size: 3rem; 
 }
 
 .text-9xl {
@@ -647,13 +636,12 @@ a {
 }
 
 .text-bigger {
-  font-size: 1.2rem; /* Increase the font size */
+  font-size: 1.2rem; 
 }
 .text-wider {
-  width: 100%; /* Make the text wider */
+  width: 100%; 
 }
 
-/* Add this to your existing CSS or the linked CSS file */
 .skills {
   margin-top: 30px;
 }
@@ -716,8 +704,4 @@ a {
   color: #666;
 }
 
-
-
-
-/* Your existing CSS */
 
